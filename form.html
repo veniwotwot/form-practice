@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <title>HTML FORM PRACTICE</title>
+  </head>
+
+  <body>
+      <form action="TODO.php" method="POST">
+        <div>
+          <label for="card">credit card number:</label>
+          <input type="text" id="card" name="card" placeholder="1234567890" required>
+        </div>
+        <br>
+        <div>
+          <label for="name">cardholder name:</label>
+          <input type="text" id="name" name="name" placeholder="David Smith" required>
+        </div>
+        <br>
+        <div>
+          <label for="security-code">security code:</label>
+          <input type="password" id="code" name="code">
+        </div>
+        <br>
+        <div>
+          <label for="email">email:</label>
+          <input type="email" id="email" name="email" placeholder="DavidSmith@mail.com">
+        </div>
+        <br>
+        <div>
+          <label for="phone">phone number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="(000)-000-00000">
+        </div>
+        <br>
+        <div>
+          <label for="date">today's date:</label>
+          <input type="date" id="date" name="date" placeholder="mm/dd/yyyy">
+        </div>
+        <br>
+        <div>
+          <label for="quantity">amount:</label>
+          <input type="number" id="quantity" name="quantity" value="1" min="1" max="999">
+        </div>
+        <br>
+        <div>
+          <label for="visa">VISA</label>
+          <input type="radio" name="type" value="V">
+          <label for="discover">Discover</label>
+          <input type="radio" name="type" value="D">
+          <label for="mastercard">Mastercard</label>
+          <input type="radio" name="type" value="M">
+        </div>
+        <br>
+        <div>
+          <label for="item">item:</label>
+          <select id="item" name="item">
+            <option value="SA">SA</option>
+            <option value="DSA">DSA</option>
+            <option value="OEM">OEM</option>
+            <option value="Cherry">Cherry</option>
+            <option value="XDA">XDA</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <label for="more-info">Check to receive information about upcoming promotions!</label>
+          <input type="checkbox" id="more-info" name="more-info">
+        </div>
+
+      <br>
+
+      <div>
+        <input type="reset">
+        <input type="submit">
+      </div>
+
+      </form>
+
+
+  </body>
+</html>
